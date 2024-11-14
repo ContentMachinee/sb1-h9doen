@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #10b981;
+  --color-secondary: #60a5fa;
+  --color-accent: #8b5cf6;
+}
+
+body {
+  background: #111827;
+  color: #e5e7eb;
+}
+
+.glass-card {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glow {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+}
+
+.chart-container {
+  background: rgba(17, 24, 39, 0.6);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
